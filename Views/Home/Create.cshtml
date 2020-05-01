@@ -1,0 +1,36 @@
+
+<div class="jumbotron">
+    <h1>Welcome to CRUDelicous</h1>
+</div>
+@* Form to submit new dish information *@
+<form method="post" action="addDish">
+    <div class="form-group">
+        <label for="ChefName">Chef's Name</label>
+        <input type="text" class="form-control" name ="chef"/>
+    </div>
+    <div class="form-group">
+        <label for="DishName">Dish's Name</label>
+        <input type="text" class="form-control" name ="name"/>
+    </div>
+    <div class="form-group">
+        <label for="Calories">Calories</label>
+        <input type="number" class="form-control" name ="calories"/>
+    </div>
+    <div class="form-group">
+        <label for="Tastiness">Tastiness</label>
+        <select type="text" class="form-control" name ="tastiness">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <textarea rows="3" class="form-control" name ="description"></textarea>
+    </div>
+    <div class="form-group">
+        <input class="form-control" type="submit"/>
+    </div>
+</form>
